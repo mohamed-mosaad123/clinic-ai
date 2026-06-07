@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  --bg-app: #F8FAFC;
+  --bg-card: #ffffff;
+  --text-main: #1e293b;
+  --text-sub: #64748b;
+  --border: #f1f5f9;
+  --input-bg: #F1F5F9;
+}
+
+.dark {
+  --bg-app: #0F172A; /* Slate 900 - Primary Color */
+  --bg-card: #0F172A; /* Unified card and background color as requested */
+  --text-main: #F8FAFC;
+  --text-sub: #94A3B8;
+  --border: #1E293B; /* Slightly lighter border for distinction */
+  --input-bg: #1E293B;
+  color-scheme: dark;
+}

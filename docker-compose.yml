@@ -1,0 +1,9 @@
+services:
+  healix-flutter-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: healix_flutter_web
+    ports:
+      - "8080:80"
+    restart: always
