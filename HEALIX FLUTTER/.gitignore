@@ -1,0 +1,18 @@
+# Local env
+.env
+android/local.properties
+
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub/
+build/
+/.flutter-plugins
+
+# iOS generated
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+
+# Editor
+.vscode/
+.idea/
